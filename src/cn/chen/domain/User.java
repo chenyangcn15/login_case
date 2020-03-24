@@ -5,6 +5,13 @@ public class User {
     private String password;
     private String username;
 
+    private String gender;
+
+    public void setHaha(String gender)
+    {
+        this.gender = gender;
+    }
+
 //    public User(int id, String password, String username) {
 //        this.id = id;
 //        this.password = password;
@@ -41,6 +48,7 @@ public class User {
                 "id=" + id +
                 ", password='" + password + '\'' +
                 ", username='" + username + '\'' +
+                ", gender='" + gender + '\'' +
                 '}';
     }
 }
